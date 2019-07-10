@@ -51,7 +51,7 @@ python run_application.py
        Good to know things 
 -------------------------------------
 
-*  To update any package in case you might need to . 
+*  To update any package in case you might need to :
 `
 pip install package_name -U
 `
