@@ -48,7 +48,7 @@ pip install package_name -U
 `
 
 
-*  to check what version of a package one currently as : 
+*  to check what version of a package one currently has : 
 `pip freeze | grep package_name`
 
 
