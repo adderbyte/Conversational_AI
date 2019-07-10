@@ -11,14 +11,19 @@
 * RASA Core 
 
 #############################################
+
           Requirement installation
+          
 #############################################
-# There is the requirement file. In the folder
-# Kindly pip install it as below
-pip install -r requirements.txt  # requirement installation
+
+* There is the requirement file. In the folder
+*  Kindly pip install it as below
+
+`pip install -r requirements.txt  # requirement installation`
 
 
 #############################################
+
          Install Application
 #############################################
 # The to install the entire applicaion do 
@@ -27,6 +32,7 @@ pip install -r requirements.txt  # requirement installation
 pip  install -e .
 
 #############################################
+
        Running Application
 #############################################
 
@@ -38,12 +44,6 @@ python run_application.py
 
 coverage run -m py.test test_coverage.py # coverage 
 
-
-#############################################
-       Report
-#############################################
-
-# small report in the Report Folder
 
 
 
