@@ -6,17 +6,18 @@
 ------------------------------------
 
 * There is the requirement file. 
-* requirement installation`
+* To install the required modules using the requirement file :
 
 
-`pip install -r requirements.txt  
+`pip install -r requirements.txt`
 
 -------------------------------------
 
           Install Application
 -------------------------------------
 
-*  The to install the entire applicaion :
+*  Then to install the  applicaion :
+*  clone the repo and from command line type :
 
 `pip  install -e .`
 
