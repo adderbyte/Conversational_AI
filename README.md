@@ -1,14 +1,4 @@
 
----------------------------
-#### Conversational AI
----------------------------
-
-* Flask
-* NLTK
-* server API
-* Client API
-* RASA NLU
-* RASA Core 
 
 -------------------------------------
 
@@ -59,3 +49,18 @@ pip install package_name -U
 
 *  to check what version of a package one currently as : 
 `pip freeze | grep package_name`
+
+
+
+---------------------------
+#### Conversational AI
+---------------------------
+* Uses :
+
+          * Flask
+          * NLTK
+          * server API
+          * Client API
+          * RASA NLU
+          * RASA Core 
+
