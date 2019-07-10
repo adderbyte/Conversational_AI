@@ -5,18 +5,18 @@
           Requirement installation
 ------------------------------------
 
-* There is the requirement file. In the folder
-* Kindly pip install it as below
+* There is the requirement file. 
+* requirement installation`
 
-`pip install -r requirements.txt  # requirement installation`
 
+`pip install -r requirements.txt  
 
 -------------------------------------
 
           Install Application
 -------------------------------------
-* The to install the entire applicaion do 
-* cd to the applicaion folder where the setup file is ...
+
+*  The to install the entire applicaion :
 
 `pip  install -e .`
 
