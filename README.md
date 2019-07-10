@@ -37,7 +37,7 @@
 
 *  to launch application
 
-python run_application.py
+`python run_application.py`
 
 * to run coverage and unit testing
 
