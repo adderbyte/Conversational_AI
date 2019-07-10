@@ -16,7 +16,7 @@
           Install Application
 -------------------------------------
 
-*  Then to install the  applicaion :
+*  To install the  applicaion 
 *  clone the repo and from command line type :
 
 `pip  install -e .`
