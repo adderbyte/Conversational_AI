@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Conversational API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <style type="text/css">
+         .container {
+         max-width: 500px;
+         padding-top: 100px;
+         }
+         h2 {color: red;}
+         body {
+        background-color: #618685
+        }
+        .navbar-inverse { background-color: #111111 !important; }
+
+      </style>
+      <script> 
+         //window.location.href=window.location.href;
+         //location.reload()
+         $(document).ready(function(){
+         setInterval(                               //Periodically 
+           function()
+           {  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+              $.getJSON(                            //Get some values from the server
+                 $SCRIPT_ROOT + '/receivedata',      // At this URL
+                 {},                                // With no extra parameters
+                 function(data)                     // And when you get a response
+                 {
+                   $("#message").text('message : ' + data.message);  // Write the results into the 
+                   $("#timestamp").text('timestamp : ' + data.timestamp); // #right element
+                   $("#prediction").text('prediction (intent prediction): ' + data.prediction);
+                   $("#prediction_confidence").text('prediction confidence: ' + data.prediction_confidence);
+                   $("#order_id").text('order Id (if present): ' + data.order_id);
+                   $("#account_number").text('account_number  (if present): ' + data.account_number);
+                   $("#suggested_meesage").text('suggested message: ' + data.suggested_meesage);
+                  //  console.log(data.device) // log data if needed
+                });
+            },
+           3000);                                    // And do it every 500ms
+         
+         });
+         
+      </script>  
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse" class="navbar-custom" role="navigation">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="/"><b>IntTalk!</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#"><b>Dashboard</b></a></li>
+                  <li><a href="#"><b>Chat History</b></a></li>
+               </ul>
+               <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+               </form>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><strong>Log</strong></a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Services </b><b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">About Us</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <div   style="margin-left:10px;margin-right:10px;" class="alert alert-success">
+         <h3>
+         Your request will appear below followed by a response.
+         Enjoy ! 
+         <h3>
+         </textarea>
+      </div>
+      <div style="margin-left:10px;margin-right:10px;" class="alert alert-success">
+      <p> You :  </p>
+         <h3 id = "message">
+         <h3>
+         <h3 id = "timestamp">
+         <h3>
+      </div>
+
+      </div>
+      <div style="margin-left:10px;margin-right:10px;" class="alert alert-success">
+      <p> The system intent prediction, confidence of the prediction and suggested message </p>
+         <h3 id = "prediction">
+         <h3>
+         <h3 id = "prediction_confidence">
+         <h3>
+         <h3 id = "order_id">
+         <h3>
+          <h3 id = "account_number">
+         <h3>
+          <h3 id = "suggested_meesage">
+         <h3>
+      </div>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+   </body>
+</html>
