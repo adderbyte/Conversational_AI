@@ -60,8 +60,6 @@ pip install package_name -U
 
           * Flask
           * NLTK
-          * server API
-          * Client API
           * RASA NLU
           * RASA Core 
 
