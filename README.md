@@ -35,6 +35,13 @@
 `coverage run -m py.test test_coverage.py `
 
 * to run custom action sever
+`
+cd path_to_this_folder
+`
+`
+python -m rasa_sdk.endpoint --actions actions
+`
+
 
 
 
