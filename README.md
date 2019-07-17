@@ -63,15 +63,16 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 `python -m rasa_sdk.endpoint --actions actions`
 `
 
--------------------------------------
+* to retrain the model
 
-       Retrain a model  
--------------------------------------
-
-* change directory to the dialogsystem folder 
-`cd /flaskr/models/dialogsystem`
-
-* unco
+`cd flaskr/models/dialogsystem`
+ 
+  * Uncomment this section of the at the bottom of the script:
+  
+  `#if __name__ == '__main__':`
+   
+     `#agent = train_dialogue() # train a model`
+    
 
 
 
