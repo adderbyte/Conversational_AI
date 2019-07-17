@@ -18,10 +18,6 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
           * nltk==3.2.5
           * spacy==2.0.11
           
-        
-
-         
-
 -------------------------------------
 
          Requirement installation
@@ -66,7 +62,14 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 
        *  `cd flaskr/models/dialogsystem`
        *  Uncomment these 2 lines  at the bottom of the script:
-                  `#if __name__ == '__main__':`  and   `#agent = train_dialogue() `
+                  `#if __name__ == '__main__':`  and   `#agent = train_dialogue()`
+                  
+ -------------------------------------
+
+       Web Interface
+-------------------------------------                 
+                  
+ ![alt-text](https://github.com/adderbyte/GYM_XPLANE_ML/blob/master/images/gymXplaneDashboard.png)
     
 -------------------------------------
 
