@@ -1,4 +1,18 @@
+---------------------------
+#### Conversational AI
+---------------------------
+The aim of this project is to deploy a conversational AI in flask AI such that the models are pretrained. The pretrained models are preloaded in flask api and are used to answer posted queries (post or get method)
 
+---------------------------
+#### Conversational AI
+---------------------------
+* Uses :
+
+          * Flask
+          * NLTK
+          * RASA NLU
+          * RASA Core 
+          
 
 -------------------------------------
 
@@ -61,13 +75,5 @@ pip install package_name -U
 
 
 
----------------------------
-#### Conversational AI
----------------------------
-* Uses :
 
-          * Flask
-          * NLTK
-          * RASA NLU
-          * RASA Core 
 
