@@ -8,11 +8,18 @@ The aim of this project is to deploy a conversational AI developed using RASA li
 ---------------------------
 * Uses :
 
-          * Flask
-          * NLTK
-          * RASA NLU
-          * RASA Core 
-          
+          * rasa==1.1.6
+          * rasa-core==0.14.5
+          * rasa-core-sdk==0.14.0
+          * rasa-nlu==0.15.1
+          * rasa-sdk==1.1.0
+          * Flask==1.1.0
+          * nltk==3.2.5
+          * spacy==2.0.11
+          * 
+community@rasa.com!          
+
+         
 
 -------------------------------------
 
