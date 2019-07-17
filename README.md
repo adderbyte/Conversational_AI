@@ -16,7 +16,7 @@ The aim of this project is to deploy a conversational AI developed using RASA li
           * Flask==1.1.0
           * nltk==3.2.5
           * spacy==2.0.11
-          * 
+          
 community@rasa.com!          
 
          
