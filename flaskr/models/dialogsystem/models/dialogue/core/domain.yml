@@ -1,0 +1,55 @@
+%YAML 1.1
+---
+actions:
+- action_check_cancel_details
+- action_check_order_details
+- utter_affirm
+- utter_ask_account_number_order_id
+- utter_goodbye
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- account
+- order
+forms: []
+intents:
+- greet:
+    ignore_entities: []
+    use_entities: true
+- goodbye:
+    ignore_entities: []
+    use_entities: true
+- order_status:
+    ignore_entities: []
+    use_entities: true
+- cancel_order:
+    ignore_entities: []
+    use_entities: true
+slots:
+  account:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  order:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+templates:
+  utter_affirm:
+  - text: Thats right
+  - text: You are correct
+  - text: Great!
+  utter_ask_account_number_order_id:
+  - text: Please share your account number and order ID and I’ll see what the options
+      are?
+  - text: Thank you! Please wait a minute while I check that up for you .
+  - text: Thank you! Please share your account number and order ID  so that  I check
+      your that up for you.
+  utter_goodbye:
+  - text: Thank you for choosing our services.
+  - text: Bye. Thank you for patronising us
+  utter_greet:
+  - text: Hello! How can I help?
+  - text: Of course! Let me assist.
+  - text: How can I help you today ?

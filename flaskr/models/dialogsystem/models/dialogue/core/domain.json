@@ -1,0 +1,26 @@
+{
+  "states": [
+    "intent_cancel_order",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_order_status",
+    "entity_account",
+    "entity_order",
+    "slot_account_0",
+    "slot_order_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_action_check_cancel_details",
+    "prev_action_check_order_details",
+    "prev_utter_affirm",
+    "prev_utter_ask_account_number_order_id",
+    "prev_utter_goodbye",
+    "prev_utter_greet"
+  ]
+}
