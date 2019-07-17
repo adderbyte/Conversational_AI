@@ -7,7 +7,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 
 ---------------------------
                                     
-        Conversational AI
+        Library Dependencies
 ---------------------------
 * Uses :
 
