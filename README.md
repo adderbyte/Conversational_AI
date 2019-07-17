@@ -2,7 +2,7 @@
 #### Conversational AI
 ---------------------------
 The aim of this project is to deploy a conversational AI developed using   [RASA](https://rasa.com/docs/rasa/core/slots/)
-in  flask environment.  The models are pretrained and are loaded  in flask api to power the conversation. Using this approach queries from the web interface are answered.
+in  [Flask]() flask environment ().  The models are pretrained and are loaded  in flask api to power the conversation. Using this approach queries from the web interface are answered by the Flask API using the pretrained model. The pretrained model could then be made trained locally conveniently.
 
 ---------------------------
 #### Conversational AI
