@@ -58,13 +58,9 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 
 * to run custom action sever
 
-`
-cd c
-`
+`cd c`
 
-`
-python -m rasa_sdk.endpoint --actions actions
-
+`python -m rasa_sdk.endpoint --actions actions`
 `
 
 -------------------------------------
@@ -73,9 +69,7 @@ python -m rasa_sdk.endpoint --actions actions
 -------------------------------------
 
 * change directory to the dialogsystem folder 
-`
-cd /flaskr/models/dialogsystem
-`
+`cd /flaskr/models/dialogsystem`
 
 * unco
 
