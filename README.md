@@ -58,7 +58,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 
 * to run custom action sever
 
-`cd c`
+`cd custom_action_server`
 
 `python -m rasa_sdk.endpoint --actions actions`
 `
