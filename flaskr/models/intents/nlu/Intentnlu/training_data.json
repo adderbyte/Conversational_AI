@@ -1,0 +1,169 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "cancel_order",
+        "text": "Hi, I’d like to cancel my order please."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Hi, please give me some assistance cancelling my order."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Hello, I need to cancel an order"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Hey hey, I ordered something yesterday but it was the wrong item – can I still cancel that?"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Hi, thanks for helping out – I want to cancel an order"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "I need to cancel my order"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Hello, I ordered from your service yesterday but I changed my mind, I need to cancel"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "I’d like to cancel an order with you"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Someone ordered something on my account, I need to cancel it"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "cancel_order",
+        "text": "I would like to cancel the order I made last week if it hasn’t shipped yet"
+      },
+      {
+        "intent": "cancel_order",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll see what the options are."
+      },
+      {
+        "intent": "order_status",
+        "text": "I paid for an order last week, what the hell is going on?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Can you check if my order has shipped yet"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Hi, my order was supposed to arrive yesterday, any news?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Hello there, please can I check where my order is"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Hello, I’d like to check if my order shipped yet"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Hi, I have an order due to arrive today and not sure if I should stay home, can you check where it is?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Can I check what’s going on with my order from the weekend"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "I’d like to find out where my order is guys, it’s the third time I’ve had a delay"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Hey, do you know where my order is?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      },
+      {
+        "intent": "order_status",
+        "text": "Guys, I ordered something from you a month ago and nothing has arrived yet, do you have a good reason for this?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Of course! Let me assist. Please share your account number and order ID and I’ll check that up for you."
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
