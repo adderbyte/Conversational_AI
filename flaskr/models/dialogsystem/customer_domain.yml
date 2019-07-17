@@ -1,0 +1,38 @@
+slots:
+  account:
+    type: text
+  order:
+    type: text
+intents:
+  - greet
+  - goodbye
+  - order_status
+  - cancel_order
+entities:
+  - account
+  - order
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+    - 'Of course! Let me assist.'
+    - 'How can I help you today ?'
+  utter_goodbye:
+    - 'Thank you for choosing our services.'
+    - 'Bye. Thank you for patronising us'
+  utter_affirm:
+    - 'Thats right'
+    - 'You are correct'
+    - Great!
+  utter_ask_account_number_order_id:
+    - 'Please share your account number and order ID and I’ll see what the options are?'
+    - 'Thank you! Please wait a minute while I check that up for you .'
+    - 'Thank you! Please share your account number and order ID  so that  I check your that up for you.'
+actions:
+  - utter_greet
+  - utter_affirm
+  - utter_goodbye
+  - utter_ask_account_number_order_id
+  - action_check_cancel_details
+  - action_check_order_details
+  
+
