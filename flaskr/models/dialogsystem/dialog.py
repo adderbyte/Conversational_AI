@@ -54,16 +54,17 @@ def train_dialogue(domain_file = 'customer_domain.yml',
     return agent
 #####uncomment to run script as is or test model
 #if __name__ == '__main__':
+     ################## uncomment this to train a model #############################
      #agent = train_dialogue() # train a model
+     ###############################################################################
+
+     ##############3 test model with a tet #######################################
+     ####### This might not work if action server is not started ###################
      #loop = asyncio.get_event_loop() # call asyncio
-    
      #interpreter = RasaNLUInterpreter('../intents/nlu/Intentnlu/') # interpreter is the intent classifier
-
      #agent = Agent.load('./models/dialogue', interpreter = interpreter) # load dialogue agent
-
      #b = loop.run_until_complete(agent.handle_text('Hello! How can I help?')) # test agent response
-   
-   
      #print(b) # print response
      #loop.close() # close loop
+     ################################################################################
    
