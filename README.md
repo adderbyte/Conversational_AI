@@ -72,6 +72,9 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 -------------------------------------                 
                   
  ![alt-text](https://github.com/adderbyte/Conversational_AI/blob/master/images/wep_interface.png)
+ 
+ 
+Feel free to edit the templates to add your own customization.
     
 -------------------------------------
 
