@@ -69,13 +69,10 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
  
   * Uncomment this section of the at the bottom of the script:
   
-  `#if __name__ == '__main__':`
-   
-     `#agent = train_dialogue() # train a model`
+ `#if __name__ == '__main__':`
+  
+    #agent = train_dialogue() `
     
-
-
-
 -------------------------------------
 
        Good to know things 
