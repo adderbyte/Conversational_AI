@@ -34,6 +34,7 @@
 
 `coverage run -m py.test test_coverage.py `
 
+* to run custom action sever
 
 
 
