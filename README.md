@@ -65,7 +65,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
 *  to retrain the model
 
        *  `cd flaskr/models/dialogsystem`
-       *  Uncomment these 2 limes of the at the bottom of the script:
+       *  Uncomment these 2 lines  at the bottom of the script:
                   `#if __name__ == '__main__':`  and   `#agent = train_dialogue() `
     
 -------------------------------------
