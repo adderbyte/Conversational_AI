@@ -9,7 +9,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
                                     
       Package Dependencies
 ---------------------------
-* Uses :
+* Uses:
 
           * rasa==1.1.6
           * rasa-core==0.14.5
