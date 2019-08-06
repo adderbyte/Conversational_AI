@@ -46,7 +46,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
        Running Application
 -------------------------------------
 
-*  to launch application
+*  to launch the flask application
 
 `python run_application.py`
 
