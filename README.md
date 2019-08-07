@@ -22,7 +22,7 @@ in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained 
           
 -------------------------------------
 
-         Requirement installation
+         Requirements installation
 ------------------------------------
 
 * There is the requirement file. 
