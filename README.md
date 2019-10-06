@@ -2,7 +2,7 @@
                            
        Conversational AI
 ---------------------------
-The aim of this project is to deploy a simple conversational AI model developed using the [RASA library](https://rasa.com/docs/rasa/core/slots/)
+The aim of this project is to deploy a toy conversational  model developed using the [RASA library](https://rasa.com/docs/rasa/core/slots/)
 in  [Flask microframework](http://flask.pocoo.org/).  The models are pretrained and are loaded  in flask api to power the conversation. Using this approach, queries from the web interface are answered by the Flask API using the pretrained model. Feel free to redefine the conversation logic to fit your desired scenario. The pretrained model could  be  retrained conveniently locally  when new conversation data are available. 
 
 ---------------------------
