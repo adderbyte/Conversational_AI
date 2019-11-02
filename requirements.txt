@@ -5,5 +5,5 @@ absl-py==0.7.1
 coverage==4.5.3
 spacy==2.0.11
 pytz==2019.1
-nltk==3.2.5
+nltk==3.4.5
 rasa-x --extra-index-url https://pypi.rasa.com/simple
